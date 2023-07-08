@@ -21,7 +21,6 @@ async function getConfig(id: string): Promise<Res<IConfig[]>> {
   try {
     const res = await fetch(`http://localhost:3000/api/config?id=${id}`);
 
-    console.log('sdgsdg', res);
     return await res.json();
   } catch (error) {
     return {
@@ -36,8 +35,6 @@ export default async () => {
   const mainData = await getMain();
 
   const defaultConfig = await getConfig(mainData[0].label || '');
-
-  console.log('1212', defaultConfig);
 
   return (
     <div className="h-full flex">

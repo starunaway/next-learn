@@ -1,8 +1,10 @@
+'use client';
 import type { Metadata } from 'next';
 import 'antd/dist/antd.css';
 import './globals.css';
+import { usePathname, useRouter } from 'next/navigation';
 
-import LayoutHeaderItem from '@/compontents/layout/LayoutHeaderItem';
+import { classnames, spacing, sizing, typography } from 'tailwindcss-classnames';
 
 const ConfigMenus = [
   {
@@ -21,12 +23,25 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const router = useRouter();
+  const pathname = usePathname();
   return (
     <html lang="en">
       <body>
         <div className="flex items-center h-12 bg-slate-200 px-4">
           {ConfigMenus.map((config) => {
-            return <LayoutHeaderItem key={config.value} {...config}></LayoutHeaderItem>;
+            return (
+              <div
+                className={classnames(
+                  spacing('mr-4'),
+                  sizing('h-6'),
+                  typography(pathname.includes(config.value) ? 'text-cyan-600' : undefined)
+                )}
+                onClick={() => router.push(`${config.value}`)}
+              >
+                {config.label}
+              </div>
+            );
           })}
         </div>
 

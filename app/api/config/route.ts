@@ -14,17 +14,11 @@ export async function GET(
     const { searchParams } = new URL(request.url);
     const id = searchParams.get('id');
 
-    console.log(id);
-
     const configPath = path.resolve(`../fvm_manage/config/${id}.json`);
 
     const configJsonStr = fs.readFileSync(configPath).toString();
 
-    console.log(configPath, configJsonStr);
-
     const config = JSON.parse(configJsonStr || '{}') as IConfig[];
-
-    console.log(config);
 
     return NextResponse.json({
       code: ErrorCode.Success,
