@@ -4,8 +4,12 @@ import { NextRequest, NextResponse } from 'next/server';
 import { IConfig } from './type';
 import { Res, ErrorCode } from '../type';
 
+const getConfigPath = (name: string) => {
+  return path.resolve(`./public/fvm_manage/config/${name}.json`);
+};
+
 export async function getConfigByName(name: string): Promise<IConfig[]> {
-  const configPath = path.resolve(`../fvm_manage/config/${name}.json`);
+  const configPath = getConfigPath(name);
   const configJsonStr = fs.readFileSync(configPath).toString();
   const config = JSON.parse(configJsonStr || '{}') as IConfig[];
 
@@ -58,7 +62,7 @@ export async function POST(request: NextRequest, context: any, ...args: any[]) {
 
     const bodyJson = JSON.parse(bodyStr);
 
-    const configPath = path.resolve(`../fvm_manage/config/${id}.json`);
+    const configPath = getConfigPath(id || '');
 
     fs.writeFileSync(configPath, JSON.stringify(bodyJson, undefined, ' '));
 

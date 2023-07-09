@@ -53,7 +53,7 @@ export default (props: IProps) => {
             className="w-80  h-20 rounded-sm border border-black flex"
           >
             <div className="w-20">
-              <img src={item.logo} alt="" />
+              <img src={`/fvm_manage/images/${item.logo}`} alt="" />
             </div>
             <div>
               <div>{item.name}</div>
@@ -63,7 +63,7 @@ export default (props: IProps) => {
                   {(item.links || []).map((link) => {
                     return (
                       <a href={link.href} key={link.href}>
-                        <img src={link.icon} alt="" />
+                        <img src={`/fvm_manage/images/${link.icon}`} alt="" />
                       </a>
                     );
                   })}
