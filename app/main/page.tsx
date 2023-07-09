@@ -4,6 +4,7 @@ import MainPage from './MainPage';
 import { IMainData } from './type';
 import { IConfig } from '../api/config/type';
 import { Res } from '../api/type';
+import { getConfigByName } from '../api/config/route';
 
 async function getMain(): Promise<IMainData[]> {
   try {
@@ -17,17 +18,13 @@ async function getMain(): Promise<IMainData[]> {
   }
 }
 
-async function getConfig(id: string): Promise<Res<IConfig[]>> {
+async function getConfig(id: string): Promise<IConfig[]> {
   try {
-    const res = await fetch(`http://localhost:3000/api/config?id=${id}`);
+    const res = await getConfigByName(id || '');
 
-    return await res.json();
+    return res;
   } catch (error) {
-    return {
-      code: -1,
-      message: '网络请求失败',
-      data: [],
-    };
+    return [];
   }
 }
 
@@ -38,7 +35,7 @@ export default async () => {
 
   return (
     <div className="h-full flex">
-      <MainPage data={mainData} defaultConfig={defaultConfig.data}></MainPage>
+      <MainPage data={mainData} defaultConfig={defaultConfig}></MainPage>
     </div>
   );
 };

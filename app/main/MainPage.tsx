@@ -11,6 +11,7 @@ import {
 import { useState } from 'react';
 import { IConfig } from '../api/config/type';
 import { IMainData } from './type';
+import Config from './Config';
 
 interface Props {
   data: IMainData[];
@@ -31,6 +32,25 @@ export default (props: Props) => {
 
     setItems(data.data);
     setActive(item);
+  };
+
+  const handleSaveConfig = async (config: IConfig, index: number) => {
+    console.log(config, index, items);
+
+    const newConfig = [...items];
+    newConfig[index] = config;
+
+    const res = await fetch(`http://localhost:3000/api/config?id=${active.label}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+      },
+
+      body: JSON.stringify(newConfig), // body data type must match "Content-Type" header
+    });
+
+    setItems(newConfig);
   };
 
   return (
@@ -57,31 +77,8 @@ export default (props: Props) => {
         })}
       </div>
 
-      <div className="p-3 flex flex-wrap gap-1 content-baseline">
-        {items.map((item) => {
-          return (
-            <div key={item.name} className="w-40  h-12">
-              <div>
-                <img src={item.logo} alt="" />
-              </div>
-              <div>
-                <div>{item.name}</div>
-                <div>
-                  <div>{item.detail}</div>
-                  <div>
-                    {(item.links || []).map((link) => {
-                      return (
-                        <a href={link.href} key={link.href}>
-                          <img src={link.href} alt="" />
-                        </a>
-                      );
-                    })}
-                  </div>
-                </div>
-              </div>
-            </div>
-          );
-        })}
+      <div className="p-3 flex flex-wrap gap-2 content-baseline">
+        <Config items={items} onSaveConfig={handleSaveConfig}></Config>
       </div>
     </>
   );

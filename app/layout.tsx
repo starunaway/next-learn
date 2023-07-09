@@ -1,7 +1,7 @@
 'use client';
 import type { Metadata } from 'next';
-import 'antd/dist/antd.css';
 import './globals.css';
+import 'antd/dist/antd.css';
 import { usePathname, useRouter } from 'next/navigation';
 
 import { classnames, spacing, sizing, typography } from 'tailwindcss-classnames';
@@ -37,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   sizing('h-6'),
                   typography(pathname.includes(config.value) ? 'text-cyan-600' : undefined)
                 )}
+                key={config.value}
                 onClick={() => router.push(`${config.value}`)}
               >
                 {config.label}
