@@ -1,0 +1,43 @@
+[{
+        "name": "Filecoin Name Service",
+        "logo": "opengate fns.jpeg",
+        "detail": "DID",
+        "links": [{
+                "href": "https://twitter.com/OpenGateNFT",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://opengatefns.com/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "Fildomains",
+        "logo": "sam.jpeg",
+        "detail": "DID",
+        "links": [{
+                "href": "https://twitter.com/fildomains",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://fildomains.com",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "FNS DAO",
+        "logo": "FNS DAO.jpeg",
+        "detail": "DID",
+        "links": [{
+                "href": "https://twitter.com/FNS_SPACE",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://app.fns.space/",
+                "icon": "network.svg"
+            }
+        ]
+    }
+]

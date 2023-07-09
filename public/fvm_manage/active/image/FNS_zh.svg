@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="233px" height="38px" viewBox="0 0 233 38" version="1.1">
+    <title>编组 2</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="233" height="38" rx="19"/>
+        <filter x="-2.1%" y="-13.2%" width="104.3%" height="126.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="5" in="SourceAlpha" result="shadowBlurInner1"/>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 0.212072842   0 0 0 0 0.212072842   0 0 0 0 0.212072842  0 0 0 0.309209223 0" type="matrix" in="shadowInnerInner1"/>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-2">
+            <g id="矩形备份">
+                <use fill="#155DD6" fill-rule="evenodd" xlink:href="#path-1"/>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"/>
+            </g>
+            <text id="🎉备份" font-family="AppleColorEmoji, Apple Color Emoji" font-size="14" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="24">🎉</tspan>
+            </text>
+            <text id="FNS域名限时“五折”优惠" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#FFFFFF">
+                <tspan x="45" y="24">FNS域名限时“五折”优惠</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "FileDoge",
+        "logo": "FILEDOGE.png",
+        "detail": "Token",
+        "href": "https://filedoge.io/",
+        "links": [{
+                "href": "https://twitter.com/Filedogetoken",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://filedoge.io/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "FilaDoge",
+        "logo": "FILADOGE.png",
+        "detail": "Token",
+        "href": "https://filadoge.fun/",
+        "links": [{
+                "href": "https://twitter.com/filadoge",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://filadoge.fun/",
+                "icon": "network.svg"
+            }
+        ]
+    }
+]

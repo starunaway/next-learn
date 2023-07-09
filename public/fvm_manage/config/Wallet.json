@@ -1,0 +1,17 @@
+[
+ {
+  "name": "TokenPocket11",
+  "detail": "Wallet",
+  "logo": "TokenPocket.png",
+  "links": [
+   {
+    "href": "https://twitter.com/TokenPocket_TP",
+    "icon": "twitter.svg"
+   },
+   {
+    "href": "https://www.tokenpocket.pro/",
+    "icon": "network.svg"
+   }
+  ]
+ }
+]

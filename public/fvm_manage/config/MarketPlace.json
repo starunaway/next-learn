@@ -1,0 +1,43 @@
+[{
+        "name": "OpenGate",
+        "logo": "OPENGATE.jpeg",
+        "detail": "MarketPlace",
+        "links": [{
+                "href": "https://twitter.com/OpenGateNFT",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://fil.opengatenft.com/?code=53bwyc#/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+     {
+        "name": "SPex",
+        "logo": "pex.jpeg",
+        "detail": "MarketPlace",
+        "links": [{
+                "href": "https://twitter.com/FVM_Spex",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://www.spex.website/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "FileMarket",
+        "logo": "OO.jpeg",
+        "detail": "MarketPlace",
+        "links": [{
+                "href": "https://twitter.com/filemarket_xyz",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://filemarket.xyz/",
+                "icon": "network.svg"
+            }
+        ]
+    }
+]

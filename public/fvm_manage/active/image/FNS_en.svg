@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="233px" height="38px" viewBox="0 0 233 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 12</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="233" height="38" rx="19"></rect>
+        <filter x="-2.1%" y="-13.2%" width="104.3%" height="126.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.212072842   0 0 0 0 0.212072842   0 0 0 0 0.212072842  0 0 0 0.309209223 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-12">
+            <g id="矩形">
+                <use fill="#155DD6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            </g>
+            <text id="🎉" font-family="AppleColorEmoji, Apple Color Emoji" font-size="14" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="24">🎉</tspan>
+            </text>
+            <text id="FNS-Mint-50%-Off-Tod" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#FFFFFF">
+                <tspan x="45" y="24">FNS Mint 50% Off Today</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

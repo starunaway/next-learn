@@ -1,0 +1,29 @@
+[{
+        "name": "Filebunnies",
+        "logo": "FileBunnies.png",
+        "detail": "NFT",
+        "links": [{
+                "href": "https://twitter.com/web3jedis",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://www.filebunnies.xyz//",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "FilPunks",
+        "logo": "filpunks.jpeg",
+        "detail": "NFT",
+        "links": [{
+                "href": "https://twitter.com/filpunks314?s=20",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://www.filpunks.io/",
+                "icon": "network.svg"
+            }
+        ]
+    }
+]

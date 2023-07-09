@@ -1,0 +1,259 @@
+[{
+        "name": "FILL",
+        "logo": "FIKKLL.jpeg",
+        "detail": "DeFi",
+
+        "links": [{
+                "href": "https://twitter.com/FILLiquidity",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://fillpool.space/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "Themis Pro",
+        "logo": "THEMISSWAP.jpeg",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/Themis_Pro",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://themis.capital/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "STFIL",
+        "logo": "STFIL.png",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/stfil_io",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://www.stfil.io/#/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "MFIL",
+        "logo": "MFL.png",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/MFILDAO",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://mfil.org/#/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "Collectif",
+        "logo": "Collect.jpeg",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/CollectifDAO",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://collectif.finance/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "Filet",
+        "logo": "fy.png",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/Filet_finance",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://www.filet.finance/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+
+    {
+        "name": "Bifrost",
+        "logo": "Bio.jpeg",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/BifrostFinance",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://bifrost.finance/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "HashMix",
+        "logo": "HSM.jpeg",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/HashMixOfficial",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://fvm.hashmix.org/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "web3mine",
+        "logo": "W.png",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/web3mine",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://web3mine.io/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "GLIF",
+        "logo": "GLIF.jpeg",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/glifio",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://www.glif.io/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "Filpluslending",
+        "logo": "Sp.jpeg",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/filpluslending",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://filpluslending.com/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+
+    {
+        "name": "FilFi",
+        "logo": "NEW.png",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/filfi_io",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://filfi.io/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "H2Odata",
+        "logo": "WATER.jpeg",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/H2O_data",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://www.h2odata.xyz/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "Secured Finance",
+        "logo": "sO.jpeg",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/Secured_Fi",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://stg.secured.finance/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+
+    {
+        "name": "SFT Protocol",
+        "logo": "sft.jpeg",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/SFTProtocol",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://www.sftproject.io/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "Jackrabbit",
+        "logo": "jrt.png",
+        "detail": "DeFi",
+        "links": [
+
+            {
+                "href": "http://www.jrt.finance/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "MineFi",
+        "logo": "MineFi.png",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/MineFiDAO",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "http://minefi.io/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+      {
+        "name": "LongFIL",
+        "logo": "LongFIL.png",
+        "detail": "DeFi",
+        "links": [{
+                "href": "https://twitter.com/LongFILofficial",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://defi.longfil.io",
+                "icon": "network.svg"
+            }
+        ]
+    }
+
+
+
+
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "name": "ThemisSwap",
+        "logo": "THEMISSWAP.jpeg",
+        "detail": "Dex",
+        "links": [{
+                "href": "https://twitter.com/Themis_Pro",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://themis.capital/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "FileDoge",
+        "logo": "FILEDOGE.png",
+        "detail": "Dex",
+        "links": [{
+                "href": "https://twitter.com/Filedogetoken",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://filedoge.io/",
+                "icon": "network.svg"
+            }
+        ]
+    },
+    {
+        "name": "FileSwap",
+        "logo": "FIlESWAP.jpeg",
+        "detail": "Dex",
+        "links": [{
+                "href": "https://twitter.com/File_swap",
+                "icon": "twitter.svg"
+            },
+            {
+                "href": "https://fileswap.finance/",
+                "icon": "network.svg"
+            }
+        ]
+    }
+
+]

@@ -1,0 +1,33 @@
+[{
+        "label": "Defi",
+        "num": 18
+    },
+    {
+        "label": "Dex",
+        "num": 3
+    },
+    {
+        "label": "DID",
+        "num": 3
+    },
+    {
+        "label": "NFT",
+        "num": 2
+    },
+    {
+        "label": "MarketPlace",
+        "num": 3
+    },
+    {
+        "label": "Launchpad",
+        "num": 1
+    },
+    {
+        "label": "Meme",
+        "num": 2
+    },
+    {
+        "label": "Wallet",
+        "num": 1
+    }
+]

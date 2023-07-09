@@ -1,0 +1,17 @@
+[
+ {
+  "name": "FLAME LAUNCH111",
+  "detail": "Launchpad",
+  "logo": "fLAME.jpeg",
+  "links": [
+   {
+    "href": "https://twitter.com/FlameLaunch",
+    "icon": "twitter.svg"
+   },
+   {
+    "href": "https://www.flamelaunch.com//",
+    "icon": "network.svg"
+   }
+  ]
+ }
+]
